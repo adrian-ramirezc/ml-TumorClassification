@@ -13,9 +13,9 @@ Each glioma in our dataset is labeled according to its grade.
 The goal of this project is to build a classifier that determines, based on the expression of these 4434 genes, the grade of a glioma.
 
 To have in consideration:
-- Implement at least 2 models
-- Data leakage (do not use the data on which the models are evaluated to train them or preprocess the data)
-- The size of the data set
-- The number of classes
-- Choosing an appropriate performance measure (justify the choice)
-- Identify, when possible, the most important genes for the models you have trained. Are these the same genes between two models obtained using a different learning algorithm? between two models obtained using the same training algorithm on different subsamples of the data?
+- 2 ML models implemented
+- Data leakage (the training daata is not used to evaluate the model, if the data needs to be preprocessed the training parameters will be applied to the test/validation dataset)
+- The size of the data set is too small
+- The number of classes is huge
+- An appropriate performance measure is chosen and justified.
+- The most important genes, when possible, are identified for the implemented models. 
